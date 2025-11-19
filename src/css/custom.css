@@ -2,11 +2,17 @@
 
 
 header {
-    background-color: rgb(23, 23, 23);
-    color: white;
+    background-color: #fdfa72;
+    color: #FF8C00;
     text-align: center;
     padding: 10px 0px;
-    font-size: 1.5rem;
+    font-size: 4rem;
+}
+
+a {
+    text-underline-offset: 2px;
+    color: #cb9867;
+    transition: color 0.1s ease;
 }
 
 a:hover {
@@ -21,8 +27,8 @@ body {
     padding: 0;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(180deg, #6f4d3d 0%, #cb9867 100%);
+    background: linear-gradient(180deg, #ffa200 0%, #ffc300 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #11521c;
+    color: #c56001;
 }
