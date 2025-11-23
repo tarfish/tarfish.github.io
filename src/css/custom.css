@@ -32,3 +32,16 @@ body {
     background-attachment: fixed;
     color: #003b66;           /*deep blue*/
 }
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+}
+
+.buttons img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
